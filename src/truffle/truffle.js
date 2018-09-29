@@ -49,7 +49,7 @@ module.exports = {
       },
       network_id: 1,
       gas: 4600000,
-      gasPrice: 6000000000,
+      gasPrice: 12000000000,
     },
   },
 };

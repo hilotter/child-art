@@ -40,7 +40,7 @@ const configs = {
     },
     site_url: 'https://child-art.app',
     etherscan_url: 'https://etherscan.io',
-    contract_address: '0x40b41a2d4c5fb2da3e08b0a1bbd361b5dd1f7bdd',
+    contract_address: '0x706163a2ccfdf9b851830954a64a21a4987edd36',
     network_id: 1,
     opensea_assets_url: 'https://opensea.io/assets/',
     opensea_url: 'https://opensea.io/category/childart',
