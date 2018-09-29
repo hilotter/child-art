@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "rinkeby-child-art",
+    "production": "live-child-art"
+  }
+}
