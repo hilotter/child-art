@@ -10,7 +10,7 @@ const configs = {
     },
     site_url: 'http://localhost:3000',
     etherscan_url: 'https://rinkeby.etherscan.io',
-    contract_address: '0xfb2b7446e020526e32e2946298c2492c95dc3723',
+    contract_address: '0x51b7400da873249f18b3e3813cb48a1073753345',
     network_id: 1111,
     opensea_assets_url: 'https://rinkeby.opensea.io/assets/',
     opensea_url: 'https://rinkeby.opensea.io/category/childart',
@@ -44,7 +44,7 @@ const configs = {
     network_id: 1,
     opensea_assets_url: 'https://opensea.io/assets/',
     opensea_url: 'https://opensea.io/category/childart',
-    infura_url: 'https://rinkeby.infura.io/v3/52cff74f88ac4e518e7b580d1f0af874',
+    infura_url: 'https://mainnet.infura.io/v3/52cff74f88ac4e518e7b580d1f0af874',
   },
 }[env];
 

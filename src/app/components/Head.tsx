@@ -6,7 +6,7 @@ export default props => (
     <title>ChildArt</title>
     <meta property="og:title" content={props.title ? `${props.title} - ChildArt` : "ChildArt"} />
     <meta property="og:description" content={props.description ? props.description : "Showcase digital Child artwork & collectables"} />
-    <meta name="keywords" content="zen,art,mindfulness" />
+    <meta name="keywords" content="child,art" />
     <meta property="og:type" content={props.ogType ? props.ogType : "website"} />
     <meta property="og:url" content={props.url ? props.url : config.site_url} />
     <meta property="og:image" content={props.image ? props.image : `${config.site_url}/static/img/ogp.png`} />
