@@ -91,6 +91,15 @@ class ChildArtPublish extends Component {
       return;
     }
 
+    // Modern dapp browsers
+    if (window.ethereum) {
+      try {
+        await ethereum.enable();
+      } catch (err) {
+        this.setState({ errorMessage: err.message });
+      }
+    }
+
     try {
       const accounts = await web3.eth.getAccounts();
       const fee = await ChildArt.methods.getPaperFee().call();
